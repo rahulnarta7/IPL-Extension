@@ -1,0 +1,44 @@
+body {
+    min-width: 300px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px; /* Increased the max-width for a wider layout */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease; /* Added transition for smoother hover effect */
+}
+
+li:hover {
+    background-color: #ccc;
+    cursor: pointer; /* Added cursor pointer on hover */
+}
+
+p {
+    align-items: center;
+    font-size: 24px; /* Increased font size */
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    background-color:rgb(95, 95, 214);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px; /* Added padding for better readability */
+}

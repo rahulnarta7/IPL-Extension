@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Rahul cricket",
+    "version": "1.0.0",
+    "description": "All the upcoming and going IPL matches status",
+    "author": "rahul narta",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "chrome extension"
+    },
+    "icons": {
+        "128": "logo.jpg"
+    }
+}
